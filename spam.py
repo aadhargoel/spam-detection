@@ -23,14 +23,10 @@ import matplotlib.pyplot as plt
 pip install wordcloud  #Installing wordcloud
 from wordcloud import WordCloud,STOPWORDS 
 
-df = pd.read_csv(r'D:\CourseDS\PythonProjects\UdemyNLP\spam.csv', encoding='ISO-8859-1') 
+df = pd.read_csv(r'D:\......\spam.csv', encoding='ISO-8859-1') 
  #UTF-* encoding errors out because of invalid characters these days that includes emojis et so using ISO
-df[:1]
 
-
-df2 = pd.read_csv(r'D:\CourseDS\PythonProjects\UdemyNLP\spam.csv')
-
-df.columns
+ df.columns
 
 #We  only need v1 and V2 columns
 
